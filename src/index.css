@@ -1,0 +1,95 @@
+.text-white{
+  color: white;
+}
+
+.text-black{
+  color: black;
+}
+
+.my-4 {
+  margin: 1rem 0;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.px-8 {
+  padding: 0 2rem;
+}
+
+.px-16 {
+  padding: 0 4rem;
+}
+
+.px-32 {
+  padding: 0 8rem;
+}
+
+
+.format {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* padding: 0 20px; */
+}
+
+.search {
+  max-width: 80%;
+  margin: 2rem auto;
+  /* padding: 2rem 0; */
+}
+
+.my-btn {
+  display: flex;
+  padding: 10px;
+}
+
+.dew {
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.sound{
+  background: #0984e3;
+  color: white;
+}
+
+.no-sound{
+  background: #ffbe76;
+}
+
+.myP{
+  margin: 0;
+  padding-right: 5px;
+}
+
+.my-icon{
+  margin: auto;
+}
+
+
+.platform {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.platform input{
+  margin: auto 10px;
+}
+.platform label {
+  margin-bottom: 0;
+}
