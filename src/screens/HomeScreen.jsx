@@ -22,7 +22,7 @@ export default function HomeScreen() {
     setIsEmpty(true)
     try{
       if(platform == "instagram"){
-        const url = `${baseUrl}ig2?videoURL=${videoYt}`
+        const url = `${baseUrl}ig3?videoURL=${videoYt}`
         const result = await Axios.get(url)
         if(result.data){
           setLoading(false)
