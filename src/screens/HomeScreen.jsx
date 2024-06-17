@@ -24,6 +24,8 @@ export default function HomeScreen() {
       if(platform == "instagram"){
         const url = `${baseUrl}ig3?videoURL=${videoYt}`
         const result = await Axios.get(url)
+        console.log('url', url)
+        console.log('result', result)
         if(result.data){
           setLoading(false)
           window.open(result.data.downloadLink)
